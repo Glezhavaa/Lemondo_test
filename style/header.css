@@ -1,0 +1,108 @@
+.header {
+    max-width: 1920px;
+    height: 100vh;
+    background-color: #FAFAFB;
+}
+
+.user-section {
+    max-width: 1286px;
+    margin: 0 auto;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+}
+
+.company-logo {
+    margin-top: 20px;
+}
+
+.user-panel {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+}
+
+.bell {
+    width: 50px;
+    height: 46px;
+    border: 1px solid #F1F1F5;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.cart {
+    width: 55px;
+    height: 46px;
+    border: 1px solid #F1F1F5;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.flag {
+    width: 55px;
+    height: 46px;
+    border: 1px solid #F1F1F5;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.user {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    vertical-align: middle;
+    width: 160px;
+    height: 46px;
+    border: 1px solid #F1F1F5;
+    border-radius: 12px;
+    margin-right: 10px;
+}
+
+.user img {
+    padding: 12px 0;
+}
+
+.shape {
+    padding: 8px 0;
+}
+
+.user p {
+    color: #696974;
+    font-size: 14px;
+}
+
+.bell img,
+.cart img,
+.flag img {
+    padding: 12px;
+}
+
+.nav {
+    max-width: 1286px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000005;
+    justify-content: space-between;
+}
+
+.left-side-nav ul,
+.right-side-nav ul {
+    display: flex;
+    flex-direction: row;
+    padding: 15px 0;
+}
+
+.right-side-nav ul li,
+.left-side-nav ul li {
+    list-style: none;
+    margin-right: 15px;
+    cursor: pointer;
+}
+
+.banner img{
+    width: 100%;
+}
