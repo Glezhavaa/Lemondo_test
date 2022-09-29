@@ -71,6 +71,7 @@
 .user p {
     color: #696974;
     font-size: 14px;
+    padding: 16px 0;
 }
 
 .bell img,
@@ -103,6 +104,22 @@
     cursor: pointer;
 }
 
-.banner img{
+.banner {
+    margin: 20px 0;
+    height: 180px;
     width: 100%;
+    border-radius: 15px;
+    background-image: linear-gradient(#0000004D, #0000004D), 
+        url(../content/img/shutterstock_1040057017.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner p {
+    color: #FFFFFF;
+    font-size: 36px;
 }
