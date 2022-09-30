@@ -1,7 +1,7 @@
 const rangeInput = document.querySelectorAll('.range-input input');
 const priceInput = document.querySelectorAll('.price-input input');
 const range = document.querySelector('.slider .progress');
-let priceGap = 5000;
+let priceGap = 70;
 
 const symbolRangeInput = document.querySelectorAll('.symbol-range-input input');
 const symbolInput = document.querySelectorAll('.symbol-input input');

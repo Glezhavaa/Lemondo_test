@@ -8,58 +8,60 @@
     <link rel="stylesheet" href="/style/style.css">
     <link rel="stylesheet" href="/style/header.css">
     <link rel="stylesheet" href="/style/main-section.css">
+    <link rel="stylesheet" href="/style/fonts.css">
     
     <title>Lemondo</title>
 </head>
 <body>
-    <header>
-        <div class="user-section">
-            <div class="company-logo">
-                <img src="/content/img/Symbols.svg">
+    <div class="user-section">
+        <div class="company-logo">
+            <img src="/content/img/Symbols.svg">
+        </div>
+        <div class="user-panel">
+            <div class="bell">
+                <img src="/content/img/Fill 1172.svg">
             </div>
-            <div class="user-panel">
-                <div class="bell">
-                    <img src="/content/img/Fill 1172.svg">
+            <div class="cart">
+                <img src="/content/img/Fill 932-5.svg">
+                <span id="badge">0</span>
+            </div>
+            <div class="user" >
+                <div>
+                    <img src="/content/img/Fill 943.svg">
                 </div>
-                <div class="cart">
-                    <img src="/content/img/Fill 932-5.svg">
+                <div>
+                    <p>Kancha Co.</p>
                 </div>
-                <div class="user" >
-                    <div>
-                        <img src="/content/img/Fill 943.svg">
-                    </div>
-                    <div>
-                        <p>Kancha Co.</p>
-                    </div>
-                    <div class="shape">
-                        <img src="/content/img/Shape.svg">
-                    </div>
+                <div class="shape">
+                    <img src="/content/img/Shape.svg">
                 </div>
-                <div class="flag">
-                    <img src="/content/img/Layer 2.svg">
-                </div>
+            </div>
+            <div class="flag">
+                <img src="/content/img/Layer 2.svg">
             </div>
         </div>
-        <nav class="nav p14">
-            <div class="left-side-nav">
-                <ul>
-                    <li>დომენი</li>
-                    <li>ტრანსფერი</li>
-                    <li>ჰოსტინგი</li>
-                    <li>Gmail</li>
-                    <li>ვებგვერდი</li>
-                    <li>დომენის მარკეტი</li>
-                </ul>
-            </div>
-            <div class="right-side-nav">
-                <ul>
-                    <li>ჩვენს შესახებ</li>
-                    <li>ფასები</li>
-                    <li>ბლოგი</li>
-                    <li>დახმარება</li>
-                </ul>
-            </div>
-        </nav>
+    </div>
+    <nav class="nav p14">
+        <div class="left-side-nav">
+            <ul>
+                <li>დომენი</li>
+                <li>ტრანსფერი</li>
+                <li>ჰოსტინგი</li>
+                <li>Gmail</li>
+                <li>ვებგვერდი</li>
+                <li>დომენის მარკეტი</li>
+            </ul>
+        </div>
+        <div class="right-side-nav">
+            <ul>
+                <li>ჩვენს შესახებ</li>
+                <li>ფასები</li>
+                <li>ბლოგი</li>
+                <li>დახმარება</li>
+            </ul>
+        </div>
+    </nav>
+    <header>
         <div class="banner">
             <p>გაყიდე და იყიდე დომენი მარტივად</p> 
         </div>
@@ -92,15 +94,15 @@
                     <div class="price-input">
                         <div class="field">
                             <input type="number" class="input-min" value="0">
-                            <input type="number" class="input-max" value="50000">
+                            <input type="number" class="input-max" value="1000">
                         </div>
                     </div>
                     <div class="slider">
                         <div class="progress"></div>
                     </div>
                     <div class="range-input">
-                        <input type="range" class="range-min" min="0" max="50000" value="0" step="400">
-                        <input type="range" class="range-max" min="0" max="50000" value="50000" step="400">
+                        <input type="range" class="range-min" min="0" max="1000" value="0" step="10">
+                        <input type="range" class="range-max" min="0" max="1000" value="1000" step="10">
                     </div>
                 </div>
                 <div class="symbol-amount">
@@ -119,32 +121,8 @@
                         <input type="range" class="symbol-range-max" min="0" max="26" value="26" step="1">
                     </div>
                 </div>
-                <div class="categories p16">
+                <div id="category-wrapper" class="categories p16">
                     <h2 class="p16">კატეგორიები</h2>
-                    <div>
-                        <input type="checkbox" id="business" name="business">
-                        <label for="business"> ბიზნესი</label><br>
-                        <input type="checkbox" id="real-estate" name="real-estate">
-                        <label for="real-estate"> უძრავი ქონება</label><br>
-                        <input type="checkbox" id="car" name="car">
-                        <label for="car"> ავტო</label><br>
-                        <input type="checkbox" id="medicine" name="medicine">
-                        <label for="medicine"> მედიცინა</label><br>
-                        <input type="checkbox" id="technology" name="technology">
-                        <label for="technology"> ტექნოლოგიები</label><br>
-                        <input type="checkbox" id="games" name="games">
-                        <label for="games"> თამაშები</label><br>
-                        <input type="checkbox" id="entertainment" name="entertainment">
-                        <label for="entertainment"> გართობა და დასვენება</label><br>
-                        <input type="checkbox" id="media" name="media">
-                        <label for="media"> მედია</label><br>
-                        <input type="checkbox" id="education" name="education">
-                        <label for="education"> განათლება</label><br>
-                        <input type="checkbox" id="commerce" name="commerce">
-                        <label for="commerce"> კომერცია</label><br>
-                        <input type="checkbox" id="finances" name="finances">
-                        <label for="finances"> ფინანსები</label><br>
-                    </div>
                 </div>
                 <div class="domain-zone">
                     <h2 class="p16">დომენის ზონა</h2>
@@ -164,41 +142,11 @@
                     </div>
                 </div>
             </div>
-            <div class="result">
-                <div class="row domain-card">
-                    <div class="row domain-name">
-                        <img src="/content/img/Btn_send.svg" class="btn-drop">
-                        <p>Random.ge</p>
-                    </div>
-                    <div class="row domain-list">
-                        <div class="domain-price">
-                            <h3 class="domain-price-gel p16">40 000 ₾</h3>
-                            <h6 class="domain-price-usd">14 285.7 $</h6>
-                        </div>
-                        <div class="add-to-cart">
-                            <img src="/content/img/Fill 932.svg" class="btn-cart" alt="cart">
-                        </div>
-                    </div>
-                </div>
-                <div class="row domain-card">
-                    <div class="row domain-name">
-                        <img src="/content/img/Btn_send.svg" class="btn-drop">
-                        <p>Random.com</p>
-                    </div>
-                    <div class="row domain-list">
-                        <div class="domain-price">
-                            <h3 class="domain-price-gel p16">40 000 ₾</h3>
-                            <h6 class="domain-price-usd">14 285.7 $</h6>
-                        </div>
-                        <div class="add-to-cart">
-                            <img src="/content/img/Fill 932.svg" class="btn-cart" alt="cart">
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <div id="result-container" class="result"></div>
         </div>
     </section>
     
+    <script src="/js/main.js"></script>
     <script src="/js/slider.js"></script>
 </body>
 </html>

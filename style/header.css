@@ -1,17 +1,16 @@
-.header {
-    max-width: 1920px;
-    height: 100vh;
-    background-color: #FAFAFB;
-}
-
 .user-section {
-    max-width: 1286px;
+    position: sticky;
+    top: 0;
+    max-width: 1920px;
     margin: 0 auto;
+    padding: 0 317px;
     height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 3px 6px #00000005;
+    z-index: 10;
 }
 
 .company-logo {
@@ -38,6 +37,18 @@
     border: 1px solid #F1F1F5;
     border-radius: 12px;
     margin-right: 10px;
+}
+
+#badge {
+    position: absolute;
+    top: 10px;
+    right: 568px;
+    color: #FFFFFF;
+    height: 20px;
+    width: 20px;
+    background-color: red;
+    border-radius: 11px;
+    text-align: center;
 }
 
 .flag {
@@ -81,8 +92,9 @@
 }
 
 .nav {
-    max-width: 1286px;
+    max-width: 1920px;
     margin: 0 auto;
+    padding: 0 317px;
     display: flex;
     flex-direction: row;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -105,9 +117,9 @@
 }
 
 .banner {
-    margin: 20px 0;
+    margin: 20px auto;
     height: 180px;
-    width: 100%;
+    max-width: 1286px;
     border-radius: 15px;
     background-image: linear-gradient(#0000004D, #0000004D), 
         url(../content/img/shutterstock_1040057017.png);
@@ -123,3 +135,20 @@
     color: #FFFFFF;
     font-size: 36px;
 }
+
+
+@media only screen and (max-width: 1919px) {
+    .user-section {
+        padding: 0;
+        max-width: 1286px;
+    }
+
+    .nav {
+        max-width: 1286px;
+        padding: 0;
+    }
+
+    #badge {
+        right: 251px;
+    }
+  }

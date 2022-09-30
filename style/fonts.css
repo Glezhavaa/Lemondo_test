@@ -1,0 +1,13 @@
+@font-face {
+  font-family: 'TKT-Medium';
+  src: url('../fonts/TKT-Medium.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'TKT-Medium-Caps';
+  src: url('../fonts/TKT-Medium-Caps.ttf');
+  font-weight: 500;
+  font-style: normal;
+}
