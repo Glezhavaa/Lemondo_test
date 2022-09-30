@@ -93,8 +93,8 @@
                     <h2 class="p16">ფასი</h2>
                     <div class="price-input">
                         <div class="field">
-                            <input type="number" class="input-min" value="0">
-                            <input type="number" class="input-max" value="1000">
+                            <input id="min-price" type="number" class="input-min" value="0">
+                            <input id="max-price" type="number" class="input-max" value="1000">
                         </div>
                     </div>
                     <div class="slider">
@@ -124,21 +124,31 @@
                 <div id="category-wrapper" class="categories p16">
                     <h2 class="p16">კატეგორიები</h2>
                 </div>
-                <div class="domain-zone">
+                <div id="domain-zone-wrapper" class="domain-zone">
                     <h2 class="p16">დომენის ზონა</h2>
-                    <div>
-                        <input type="checkbox" id="ge" name="ge">
-                        <label for="ge"> .ge</label><br>
-                        <input type="checkbox" id="com-ge" name="com-ge">
-                        <label for="com-ge"> .com.ge</label><br>
-                        <input type="checkbox" id="net-ge" name="net-ge">
-                        <label for="net-ge"> .net.ge</label><br>
-                        <input type="checkbox" id="org-ge" name="org-ge">
-                        <label for="org-ge"> .org.ge</label><br>
-                        <input type="checkbox" id="edu-ge" name="edu-ge">
-                        <label for="edu-ge"> .edu.ge</label><br>
-                        <input type="checkbox" id="schhool-ge" name="schhool-ge">
-                        <label for="schhool-ge"> .school.ge</label><br>
+                    <div class="domain-zone-list">
+                        <input type="checkbox" id=".ge" name="ge">
+                        <label for=".ge">.ge</label>
+                    </div>
+                    <div class="domain-zone-list">
+                        <input type="checkbox" id=".com.ge" name="com.ge">
+                        <label for=".com.ge">.com.ge</label>
+                    </div>
+                    <div class="domain-zone-list">
+                        <input type="checkbox" id=".net.ge" name="net.ge">
+                        <label for=".net.ge">.net.ge</label>
+                    </div>
+                    <div class="domain-zone-list">
+                        <input type="checkbox" id=".org.ge" name="org.ge">
+                        <label for=".org.ge">.org.ge</label>
+                    </div>
+                    <div class="domain-zone-list">
+                        <input type="checkbox" id=".edu.ge" name="edu.ge">
+                        <label for=".edu.ge">.edu.ge</label>
+                    </div>
+                    <div class="domain-zone-list">
+                        <input type="checkbox" id=".school.ge" name="school.ge">
+                        <label for=".school.ge">.school.ge</label>
                     </div>
                 </div>
             </div>
