@@ -46,7 +46,6 @@ const categories = [
     },
   ];
   
-  
   const selectedCategories = [];
   
   const renderCategories = () => {
@@ -90,6 +89,7 @@ const categories = [
                 <h3 class="domain-price-gel p16">${element.price} ₾</h3>
             </div>
             <div class="add-to-cart" onclick="addToCart()">
+                <p>დამატება</p>
                 <img src="/content/img/Fill 932.svg" class="btn-cart" alt="cart">
             </div>
         </div>
@@ -113,14 +113,15 @@ const categories = [
       }
     }
   };
-  
+ 
   let cartCount = 0;
   const addToCart = () => {
     cartCount += 1;
     const badge = document.getElementById('badge');
     badge.innerText = cartCount;
   };
-  
+
   renderCategories();
   renderDomainList();
-  
+
+

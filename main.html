@@ -15,6 +15,7 @@
 <body>
     <div class="user-section">
         <div class="company-logo">
+            <img class="hidden burger-icon" src="/content/mobile-img/Group 4795.svg">
             <img src="/content/img/Symbols.svg">
         </div>
         <div class="user-panel">
@@ -29,7 +30,7 @@
                 <div>
                     <img src="/content/img/Fill 943.svg">
                 </div>
-                <div>
+                <div class="user-name">
                     <p>Kancha Co.</p>
                 </div>
                 <div class="shape">
@@ -67,21 +68,33 @@
         </div>
     </header>
     <section class="main-section">
-        <div class="row">
-            <div class="domain-amount p16">
-                <p>დომენები მარკეტზე: <span>703</span></p>
+        <div class="stats">
+            <div class="row">
+                <div class="domain-amount p16">
+                    <p>დომენები მარკეტზე: <span>703</span></p>
+                </div>
+                <div class="arranging p14">
+                    <p>სორტირება:</p>
+                    <ul>
+                        <li>დამატების თარიღით <img src="/content/img/Fill 919.svg"></li>
+                        <li>ვადის ამოწურვით</li>
+                        <li>ფასით</li>
+                        <li>ანბანით</li>
+                    </ul>
+                </div>
+                <div class="how-to-buy p14">
+                    <a href="#">როგორ გავყიდო დომენი?</a>
+                </div>
             </div>
-            <div class="arranging p14">
-                <p>სორტირება:</p>
-                <ul>
-                    <li>დამატების თარიღით <img src="/content/img/Fill 919.svg"></li>
-                    <li>ვადის ამოწურვით</li>
-                    <li>ფასით</li>
-                    <li>ანბანით</li>
-                </ul>
+        </div>
+        <div class="sorting-row">
+            <div class="filter">
+                <p>ფილტრი</p>
+                <ion-icon id="filter-btn" name="options-outline"></ion-icon>
             </div>
-            <div class="how-to-buy p14">
-                <a href="#">როგორ გავყიდო დომენი?</a>
+            <div class="sorting">
+                <p>სორტირება</p>
+                <img class="sorting-btn" src="/content/mobile-img/Dropdown - 2.svg" alt="">
             </div>
         </div>
         <div class="main-content">
@@ -158,5 +171,8 @@
     
     <script src="/js/main.js"></script>
     <script src="/js/slider.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
 </body>
 </html>
